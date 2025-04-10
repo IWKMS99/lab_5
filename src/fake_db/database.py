@@ -1,5 +1,6 @@
 from typing import Dict, List, Union
 
+
 class Database:
     def __init__(self):
         self._users: List[Dict[str, Union[int, str, bool]]] = [
